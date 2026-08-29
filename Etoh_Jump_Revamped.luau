@@ -3,7 +3,7 @@ local localPlayer = Players.LocalPlayer
 local Checkpoints = workspace:FindFirstChild("checkpoints")
 
 if Checkpoints then
-    for i = 200, 210 do
+    for i = 1, 210 do
         local targetName = tostring(i)
         local targetPart = Checkpoints:FindFirstChild(targetName, true)
         
