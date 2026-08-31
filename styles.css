@@ -1,0 +1,14 @@
+p#one {
+  /* hex example: */
+  color: #0099ff;
+}
+
+p#two {
+  /* rgb example: */
+  color: rgb(100, 0, 127);
+}
+
+p#three {
+  /* hsl example: */
+  color: hsl(15, 82%, 56%);
+}
